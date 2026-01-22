@@ -1,4 +1,4 @@
-const rateBtns = document.querySelectorAll("#rating-number")
+const rateBtns = document.querySelectorAll(".rating__button")
 const submitBtn = document.querySelector("#submit-button")
 const userRating = document.querySelector("#user-rating")
 
