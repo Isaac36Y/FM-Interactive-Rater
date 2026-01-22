@@ -10,7 +10,7 @@
 <body>
 <main>
     <div class="container">
-      <section class="rate" role="region">
+      <section class="rate">
         <img src="./images/icon-star.svg" alt="" class="rate__img">
         <h1 class="rate__header">How did we do?</h1>
         <p class="rate__par">
@@ -19,22 +19,22 @@
         </p>
         <ol class="rate__list" role="radiogroup" aria-label="Rating">
           <li class="rate__list-number">
-            <button type="button" role="radio" id="rating-number-1" class="rate__button" aria-checked="false" value="1">1</button>
+            <button type="button" role="radio" id="rating-number-1" class="rate__button" aria-checked="false" value="1" tabindex="0">1</button>
           </li>
           <li class="rate__list-number">
-            <button type="button" role="radio" id="rating-number-2" class="rate__button" aria-checked="false" value="2">2</button>
+            <button type="button" role="radio" id="rating-number-2" class="rate__button" aria-checked="false" value="2" tabindex="-1">2</button>
           </li>
           <li class="rate__list-number">
-            <button type="button" role="radio" id="rating-number-3" class="rate__button" aria-checked="false" value="3">3</button>
+            <button type="button" role="radio" id="rating-number-3" class="rate__button" aria-checked="false" value="3" tabindex="-1">3</button>
           </li>
           <li class="rate__list-number">
-            <button type="button" role="radio" id="rating-number-4" class="rate__button" aria-checked="false" value="4">4</button>
+            <button type="button" role="radio" id="rating-number-4" class="rate__button" aria-checked="false" value="4" tabindex="-1">4</button>
           </li>
           <li class="rate__list-number">
-            <button type="button" role="radio" id="rating-number-5" class="rate__button" aria-checked="false" value="5">5</button>
+            <button type="button" role="radio" id="rating-number-5" class="rate__button" aria-checked="false" value="5" tabindex="-1">5</button>
           </li>
         </ol>
-        <button type="button" id="submit-button"class="rate__submit-button" aria-label="Submit Button">SUBMIT</button>
+        <button type="button" id="submit-button"class="rate__submit-button" >SUBMIT</button>
       </section>
       <section class="thanks"
       hidden

@@ -156,7 +156,7 @@ p {
     padding-block-end: 1rem;
 }
 
-.clicked {
+[aria-checked="true"] {
     background-color: white;
     color: var(--neutral-900)
 }
