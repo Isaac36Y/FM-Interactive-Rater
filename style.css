@@ -163,15 +163,17 @@ p {
 
 @media (min-width: 720px) {
     .container {
-        padding: 2.5rem;
         margin: 14rem auto;
     }
     h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding-block: 1.5rem;
     }
     p, .thanks__your-rating {
         font-size: 0.98rem;
-        margin-block-end: 1rem;
+    }
+    .rate__button {
+        width: 3rem;
+        height: 3rem;
     }
 }
