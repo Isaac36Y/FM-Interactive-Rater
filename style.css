@@ -46,8 +46,8 @@ body {
 }
 
 
-ul[role="list"],
-ol[role="list"] {
+ul[role="radiogroup"],
+ol[role="radiogroup"] {
     list-style: none;
 }
 
