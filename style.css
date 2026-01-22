@@ -43,6 +43,7 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: hsl(216, 12%, 8%);
   font-family: sans-serif;
+  height: 100%;
 }
 
 
@@ -66,6 +67,14 @@ h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
 }
 
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
 .container {
     width: min(88%, 25rem);
     background-color: var(--neutral-925);
@@ -74,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
       linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.06)),
       linear-gradient(var(--neutral-900), var(--neutral-925));
     background-blend-mode: normal, overlay, normal;
-    margin: 10rem auto;
+    margin: auto;
     padding: 1.5rem;
     border-radius: 1rem;
     display: flex;
@@ -163,7 +172,7 @@ p {
 
 @media (min-width: 720px) {
     .container {
-        margin: 14rem auto;
+        margin: auto;
     }
     h1 {
         font-size: 1.5rem;
